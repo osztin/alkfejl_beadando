@@ -118,10 +118,14 @@ Egységtesztek:
   ![User model teszt](documentation_images/usermodeltest.PNG)
 
 Funkcionális felületi tesztek:
+  + Bejelentkezés tesztelése Selenium IDE segítségével:
+  
+  ![Bejelentkezés teszt](documentation_images/logintest.PNG)
   
 Tesztesetek felsorolása: 
   + User model tesztelése sikeres mocha és chai segítségével
   + Manuálisan az összes funkcionális teszt sikeres
+  + Selenium IDE segítségével a bejelentkezés sikeresen tesztelve
 
 ***
 
