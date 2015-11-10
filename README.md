@@ -67,7 +67,7 @@ Végpontok:
 
 Felhasználóifelület-modell:
   + Oldalvázlat:
-  + ![Oldalvázlat](documentation_images/vazlat.png)
+  ![Oldalvázlat](documentation_images/vazlat.png)
   
   + Megvalósítva:
   + 
