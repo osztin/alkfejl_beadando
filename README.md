@@ -6,6 +6,7 @@
 ###Követelményanalízis
 
 A program regisztrált és hitelesített felhasználók számára nyújt lehetőséget makettkészleteik nyilvántartására.
+
 Funkcionális elvárások:
   + Lehetőség legyen az oldalon a regisztrációra felhasználók számára
   + Lehetőség legyen be és kilépésre regisztrált felhasználóknak
@@ -24,7 +25,8 @@ Használatieset-modell
   + vendég: a főoldal tartalmához fér hozzá, regisztrálhat, vagy beléphet az oldalra
   + felhasználó: bejelentkezés után az oldal összes funkcióját elérheti
   
-Használati eset diagramok: a szerepkörök és az elérhető funkiók kapcsolatát jelenítik meg, ha kell, akkor esetenként rövid magyarázó szöveggel.
+Használati eset diagram:
+
 Folyamatok pontos menete: legalább 1 folyamat kifejtése.
 
 Tervezés
