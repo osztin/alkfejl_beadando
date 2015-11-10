@@ -1,0 +1,240 @@
+{
+  "data": {
+    "error": [
+      {
+        "status": "edited",
+        "location": "balbla osztály",
+        "description": "blabla hiba",
+        "date": "2015-11-08T16:40:17.020Z",
+        "createdAt": "2015-11-08T16:40:17.020Z",
+        "updatedAt": "2015-11-09T21:31:55.694Z",
+        "id": 2
+      },
+      {
+        "status": "new",
+        "location": "Terem",
+        "description": "Nagy hiba",
+        "date": "2015-11-08T16:47:53.237Z",
+        "createdAt": "2015-11-08T16:47:53.238Z",
+        "updatedAt": "2015-11-08T16:47:53.238Z",
+        "id": 3
+      },
+      {
+        "status": "edited",
+        "location": "nem gépterem",
+        "description": "no para",
+        "date": "2015-11-08T17:10:20.571Z",
+        "createdAt": "2015-11-08T17:10:20.572Z",
+        "updatedAt": "2015-11-09T21:42:15.246Z",
+        "id": 4
+      }
+    ],
+    "modelkit": [
+      {
+        "status": "new",
+        "make": "Aoshima",
+        "kitname": "S30 Fairlady Z AERO CUSTOM",
+        "date": "Tue Nov 10 2015",
+        "createdAt": "2015-11-10T00:59:25.005Z",
+        "updatedAt": "2015-11-10T01:15:19.163Z",
+        "id": 8
+      },
+      {
+        "status": "inProgress",
+        "make": "Tamiya",
+        "kitname": "Pennzoil Nismo GT-R (R34)",
+        "date": "Tue Nov 10 2015",
+        "createdAt": "2015-11-10T00:59:56.493Z",
+        "updatedAt": "2015-11-10T01:00:03.509Z",
+        "id": 9
+      },
+      {
+        "status": "inProgress",
+        "make": "Hasegawa",
+        "kitname": "F-4N Phantom II Ark Royal",
+        "date": "Tue Nov 10 2015",
+        "createdAt": "2015-11-10T01:08:07.129Z",
+        "updatedAt": "2015-11-10T01:08:14.064Z",
+        "id": 10
+      },
+      {
+        "status": "done",
+        "make": "Hobby Boss",
+        "kitname": "MIL MI-24V Hind E",
+        "date": "Tue Nov 10 2015",
+        "createdAt": "2015-11-10T01:08:33.555Z",
+        "updatedAt": "2015-11-10T01:08:36.043Z",
+        "id": 11
+      },
+      {
+        "status": "inProgress",
+        "make": "Hobby Boss",
+        "kitname": "A-10A Thunderbolt II",
+        "date": "Tue Nov 10 2015",
+        "createdAt": "2015-11-10T01:08:52.961Z",
+        "updatedAt": "2015-11-10T01:08:55.957Z",
+        "id": 12
+      },
+      {
+        "status": "new",
+        "make": "Italeri",
+        "kitname": "JAS-39 Gripen Twin Seater",
+        "date": "Tue Nov 10 2015",
+        "createdAt": "2015-11-10T01:11:13.507Z",
+        "updatedAt": "2015-11-10T01:11:41.881Z",
+        "id": 13
+      }
+    ],
+    "user": [
+      {
+        "surname": "Gyula",
+        "forename": "Sűrű",
+        "neptun": "FG3BJJ",
+        "password": "$2a$10$Hlcj8XqjyRVstG2xrooY3uFHDislp5oGSLLwDjz/scq0oNCNG.Ooq",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-08T13:47:23.452Z",
+        "updatedAt": "2015-11-08T13:47:23.452Z",
+        "id": 1
+      },
+      {
+        "surname": "Sűrű",
+        "forename": "Gyula",
+        "nickname": "osztin",
+        "password": "$2a$10$BP7Iu0PyzNJsfkd7I6qykuhDfHRrx1Q19av7bWAoGbXLCowBrvPie",
+        "avatar": "",
+        "role": "nickname",
+        "createdAt": "2015-11-09T23:58:12.539Z",
+        "updatedAt": "2015-11-09T23:58:12.539Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "error": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "edited"
+        ]
+      },
+      "location": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "modelkit": {
+      "date": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "inProgress",
+          "done"
+        ]
+      },
+      "make": {
+        "type": "string"
+      },
+      "kitname": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "nickname": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "nickname",
+          "admin"
+        ],
+        "defaultsTo": "nickname"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "error": {
+      "id": 4
+    },
+    "user": {
+      "id": 2
+    },
+    "modelkit": {
+      "id": 13
+    }
+  }
+}

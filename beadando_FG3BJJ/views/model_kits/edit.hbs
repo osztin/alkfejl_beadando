@@ -1,0 +1,41 @@
+<div class="page-header">
+    <h1>Hiba szerkesztése</h1>
+</div>
+
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group
+            {{#if validationErrors.gyarto}}
+                has-error
+            {{/if}}
+        ">
+            <label for="gyarto" class="col-lg-2 control-label">Helyszín</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="gyarto" name="gyarto" placeholder="pl. Tamiya, Aoshima, Hasegawa, stb." type="text" value="{{data.gyarto}}">
+                {{#if validationErrors.gyarto}}
+                    <span class="help-block">{{validationErrors.gyarto.msg}}</span>
+                {{/if}}
+            </div>
+        </div>
+        <div class="form-group
+            {{#if validationErrors.keszletNeve}}
+                has-error
+            {{/if}}
+        ">
+            <label for="keszletNeve" class="col-lg-2 control-label">Leírás</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="keszletNeve" name="keszletNeve">{{data.keszletNeve}}</textarea>
+                <span class="help-block">Add meg a makettkészlet nevét!</span>
+                {{#if validationErrors.keszletNeve}}
+                    <span class="help-block">{{validationErrors.keszletNeve.msg}}</span>
+                {{/if}}
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Alaphelyzet</button>
+                <button type="submit" class="btn btn-primary">Mehet</button>
+            </div>
+        </div>
+    </fieldset>
+</form>        
