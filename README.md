@@ -114,6 +114,7 @@ Tesztelési környezet bemutatása:
 
 Egységtesztek: 
   + User model tesztelése:
+  
   ![User model teszt](documentation_images/usermodeltest.PNG)
 
 Funkcionális felületi tesztek:
