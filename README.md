@@ -95,7 +95,7 @@ Osztálymodell:
 ###Implementáció
 
 1. Fejlesztői környezet bemutatása:
-      Az alkalmazást a Cloud9 Web IDE segítségével online hoztam létre és szerkesztettem. Ezen belül használtam a           terminált is, így teljesen felhőben lehetett megvalósítani a programot. Futtatókörnyezetként is a Web IDE szolgált a fejlesztés során.
+        Az alkalmazást a Cloud9 Web IDE segítségével online hoztam létre és szerkesztettem. Ezen belül használtam a           terminált is, így teljesen felhőben lehetett megvalósítani a programot. Futtatókörnyezetként is a Web IDE szolgált a fejlesztés során.
 
 2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
 
