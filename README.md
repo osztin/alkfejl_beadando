@@ -76,8 +76,14 @@ Osztálymodell:
   + Adatmodell:
   
   ![Adatmodell](documentation_images/adatmodell.png)
-  Adatbázisterv
-  Állapotdiagram
+  
+  + Adatbázisterv:
+  
+  ![Adartbázisterv](documentation_images/adatbazismodell.png)
+  
+  + Állapotdiagram:
+  
+  ![Állapotdiagram](documentation_images/allapotdiagram.png)
 
 Dinamikus működés:
   Szekvenciadiagram
