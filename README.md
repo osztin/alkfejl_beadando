@@ -26,6 +26,7 @@ Használatieset-modell
   + felhasználó: bejelentkezés után az oldal összes funkcióját elérheti
   
 Használati eset diagram:
+![Használati eseti diagram](documentation_images/nomnoml.png)
 
 Folyamatok pontos menete: legalább 1 folyamat kifejtése.
 
