@@ -32,7 +32,37 @@ Lehetséges folyamat példa:
 
 ![Folyamat diagram](documentation_images/folyamat.png)
 
-Tervezés
+***
+
+###Tervezés
+
+Architektúra terv
+      komponensdiagram
+      + Publikus:
+        - Főoldal
+        - Regisztráció
+        - Login
+      + Felhasználó
+        - Főoldal
+        - Login/Logout
+        - Makettkészleteinek listája
+            + új készlet hozzáadása
+            + meglévő készlet szerkesztése
+            + meglévő készlet állapotának változtatása
+            + meglévő készlet törlése
+            
+        Végpontok
+Felhasználóifelület-modell
+        Oldalvázlatok
+        Designterv (nem kell, elég a végső megvalósítás kinézete)
+Osztálymodell
+        Adatmodell
+        Adatbázisterv
+        Állapotdiagram
+Dinamikus működés
+        Szekvenciadiagram
+
+
 Implementáció
 Tesztelés
 Felhasználói dokumentáció
