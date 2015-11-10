@@ -42,7 +42,7 @@ komponensdiagram
     + Főoldal
     + Regisztráció
     + Login
-  + Felhasználó
+  + Felhasználó:
     + Főoldal
     + Login/Logout
     + Makettkészleteinek listája
