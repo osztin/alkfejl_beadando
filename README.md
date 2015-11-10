@@ -73,7 +73,8 @@ Felhasználóifelület-modell:
   ![Kész oldal](documentation_images/keszoldal.PNG)
 
 Osztálymodell:
-  Adatmodell
+  + Adatmodell:
+  ![Adatmodell](documentation_images/adatmodell.png)
   Adatbázisterv
   Állapotdiagram
 
