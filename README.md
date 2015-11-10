@@ -108,7 +108,19 @@ Osztálymodell:
 
 ###Tesztelés
 
+Tesztelési környezet bemutatása:
+  + Az egységtesztek végzését a Web IDE-n belül hajtottam végre, "mocha" és "chai" modulok telepítése és konfigurálása után, tesztállomány létrehozásával, majd az "npm test" paranccsal
+  + A funkcionális felületi teszteket Selenium IDE segítségével, illetve manuálisan végeztem
 
+Egységtesztek: 
+  + User model tesztelése:
+  ![User model teszt](documentation_images/usermodeltest.PNG)
+
+Funkcionális felületi tesztek:
+  
+Tesztesetek felsorolása: 
+  + User model tesztelése sikeres mocha és chai segítségével
+  + Manuálisan az összes funkcionális teszt sikeres
 
 ***
 
