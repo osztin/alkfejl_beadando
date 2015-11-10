@@ -39,13 +39,13 @@ Lehetséges folyamat példa:
 Architektúra terv
       komponensdiagram
       + Publikus:
-        - Főoldal
-        - Regisztráció
-        - Login
+        + Főoldal
+        + Regisztráció
+        + Login
       + Felhasználó
-        - Főoldal
-        - Login/Logout
-        - Makettkészleteinek listája
+        + Főoldal
+        + Login/Logout
+        + Makettkészleteinek listája
             + új készlet hozzáadása
             + meglévő készlet szerkesztése
             + meglévő készlet állapotának változtatása
