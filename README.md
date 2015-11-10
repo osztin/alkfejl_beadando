@@ -65,9 +65,12 @@ Végpontok:
   + GET /model_kits/done/:id : makettkészlet állapotának változtatása "Kész"-re
   + GET /logout: kijelentkezés
 
-Felhasználóifelület-modell
-        Oldalvázlatok
-        Designterv (nem kell, elég a végső megvalósítás kinézete)
+Felhasználóifelület-modell:
+  + Oldalvázlat:
+  + ![Oldalvázlat](documentation_images/vazlat.png)
+  
+  + Megvalósítva:
+  + 
 Osztálymodell
         Adatmodell
         Adatbázisterv
