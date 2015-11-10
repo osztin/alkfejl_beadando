@@ -81,14 +81,22 @@ Osztálymodell:
   
   ![Adartbázisterv](documentation_images/adatbazismodell.png)
   
-  + Állapotdiagram:
+  + Állapotdiagram (makettkészlet):
   
   ![Állapotdiagram](documentation_images/allapotdiagram.png)
 
-Dinamikus működés:
-  Szekvenciadiagram
+  + Dinamikus működés:
+    Az alkalmazás 'hbs' fájlokkal dinamukusan változtatja a nézeteit.
 
 
-Implementáció
+
+***
+
+###Implementáció
+
+  1. Fejlesztői környezet bemutatása:
+    Az alkalmazást a Cloud9 Web IDE segítségével online hoztam létre és szerkesztettem. Ezen belül használtam a           terminált is, így teljesen felhőben lehetett megvalósítani a programot. Futtatókörnyezetként is a Web IDE szolgált     a fejlesztés során.
+  2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
+
 Tesztelés
 Felhasználói dokumentáció
