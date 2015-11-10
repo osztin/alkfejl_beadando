@@ -37,19 +37,19 @@ Lehetséges folyamat példa:
 ###Tervezés
 
 Architektúra terv
-      komponensdiagram
-      + Publikus:
-        + Főoldal
-        + Regisztráció
-        + Login
-      + Felhasználó
-        + Főoldal
-        + Login/Logout
-        + Makettkészleteinek listája
-            + új készlet hozzáadása
-            + meglévő készlet szerkesztése
-            + meglévő készlet állapotának változtatása
-            + meglévő készlet törlése
+komponensdiagram
+  + Publikus:
+    + Főoldal
+    + Regisztráció
+    + Login
+  + Felhasználó
+    + Főoldal
+    + Login/Logout
+    + Makettkészleteinek listája
+        + új készlet hozzáadása
+        + meglévő készlet szerkesztése
+        + meglévő készlet állapotának változtatása
+        + meglévő készlet törlése
             
         Végpontok
 Felhasználóifelület-modell
