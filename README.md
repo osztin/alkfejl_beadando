@@ -70,13 +70,15 @@ Felhasználóifelület-modell:
   ![Oldalvázlat](documentation_images/vazlat.PNG)
   
   + Megvalósítva:
-  + 
-Osztálymodell
-        Adatmodell
-        Adatbázisterv
-        Állapotdiagram
-Dinamikus működés
-        Szekvenciadiagram
+  ![Kész oldal](documentation_images/keszoldal.PNG)
+
+Osztálymodell:
+  Adatmodell
+  Adatbázisterv
+  Állapotdiagram
+
+Dinamikus működés:
+  Szekvenciadiagram
 
 
 Implementáció
