@@ -74,6 +74,7 @@ Felhasználóifelület-modell:
 
 Osztálymodell:
   + Adatmodell:
+  
   ![Adatmodell](documentation_images/adatmodell.png)
   Adatbázisterv
   Állapotdiagram
