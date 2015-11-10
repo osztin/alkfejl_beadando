@@ -1,0 +1,7 @@
+# alkfejl_beadando
+
+Követelményanalízis
+Tervezés
+Implementáció
+Tesztelés
+Felhasználói dokumentáció
