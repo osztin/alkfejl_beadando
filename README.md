@@ -58,11 +58,11 @@ Végpontok:
   + GET /model_kits/list: saját makettkészleteket listázó oldal
   + GET /model_kits/new: új makettkészlet hozzáadása
   + POST /model_kits/new: új makettkészlet hozzáadása, adatok felküldése
-  + GET /model_kits/edit/:id: makettkészlet szerkesztése
-  + POST /model_kits/edit/:id: makettkészlet szerkesztése, adatok felküldése
-  + GET /model_kits/delete/:id: makettkészlet törlése
-  + GET /model_kits/started/:id: makettkészlet állapotának változtatása "Elkezdett"-re
-  + GET /model_kits/done/:id: makettkészlet állapotának változtatása "Kész"-re
+  + GET /model_kits/edit/:id : makettkészlet szerkesztése
+  + POST /model_kits/edit/:id : makettkészlet szerkesztése, adatok felküldése
+  + GET /model_kits/delete/:id : makettkészlet törlése
+  + GET /model_kits/started/:id : makettkészlet állapotának változtatása "Elkezdett"-re
+  + GET /model_kits/done/:id : makettkészlet állapotának változtatása "Kész"-re
   + GET /logout: kijelentkezés
 
 Felhasználóifelület-modell
