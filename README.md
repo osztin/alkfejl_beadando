@@ -37,7 +37,6 @@ Lehetséges folyamat példa:
 ###Tervezés
 
 Architektúra terv:
-komponensdiagram
   + Publikus:
     + Főoldal
     + Regisztráció
@@ -95,9 +94,35 @@ Osztálymodell:
 ###Implementáció
 
 1. Fejlesztői környezet bemutatása:
-        Az alkalmazást a Cloud9 Web IDE segítségével online hoztam létre és szerkesztettem. Ezen belül használtam a           terminált is, így teljesen felhőben lehetett megvalósítani a programot. Futtatókörnyezetként is a Web IDE szolgált a fejlesztés során.
+    az alkalmazást a Cloud9 Web IDE segítségével online hoztam létre és szerkesztettem. Ezen belül használtam a           terminált is, így teljesen felhőben lehetett megvalósítani a programot. Futtatókörnyezetként is a Web IDE szolgált a fejlesztés során.
 
-2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
+2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása:
+    + config: a "Waterline" konfigurációját tartalmazza
+    + controllers: az alkalmazás MVC struktúrájának vezérlő egységeit tartalmazza
+    + models: az alkalmazás MVC struktúrájának modell egységeit tartalmazza
+    + node_modules (és almappái): különböző modulok telepítési helye a "Node.js"-hez
+    + public (és almappái): az oldal megjelnítéséhez szükséges állományokat (css, képek, stb...) tartalmazza
+    + views (és almappái): az alkalmazás MVC struktúrájának megjelenítő egységeit tartalmazza
 
-Tesztelés
-Felhasználói dokumentáció
+***
+
+###Tesztelés
+
+
+
+***
+
+###Felhasználói dokumentáció
+
+Rendszerigény: 
+  + Modern böngészőket futtató hardver
+  + Internetkapcsolat
+
+Telepítés: nem szükséges telepíteni az alkalmazást, elérhető Heroku segítségével online böngészőből.
+
+A program használata:
+  + Regisztráció: a felhasználónak regisztrálnia kell néhány adat megadásával
+  + Bejelentkezés: a felhasználó felhasználóneve és jelszava segítségével be kell, hogy jelentkezzen az alkalmazás használatához
+  + Ha bejelentkezett, makettkészletéhez az "Új készlet hozzáadása" gombbal adhat újabb készletet
+  + Ha van rögzítve a listában makettkészlet, akkor adott készlet szerkesztéséhez a "Szerkesztés" gombot, állapotváltoztattáshoz az "Elkezdtem", vagy a "Befejeztem" gombot, valamint törléhez a "Törlöm" gombot használhatja
+  + Ha be van jelentkezve az adott felhasználó, a "Kilépés" gombra kattintva kijelentkezhet 
