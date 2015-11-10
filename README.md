@@ -28,7 +28,8 @@ Használatieset-modell
 Használati eset diagram:
 ![Használati eseti diagram](documentation_images/nomnoml.png)
 
-Folyamatok pontos menete: legalább 1 folyamat kifejtése.
+Lehetséges folyamat példa:
+![Folyamat diagram](documentation_images/folyamat.png)
 
 Tervezés
 Implementáció
