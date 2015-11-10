@@ -29,6 +29,7 @@ Használati eset diagram:
 ![Használati eseti diagram](documentation_images/nomnoml.png)
 
 Lehetséges folyamat példa:
+
 ![Folyamat diagram](documentation_images/folyamat.png)
 
 Tervezés
